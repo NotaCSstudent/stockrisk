@@ -46,10 +46,15 @@ class Ticker:
         
         
 
+apple = Ticker('AAPL')
+tesla = Ticker('TSLA')
+microsoft = Ticker('MSFT')
+nvdia = Ticker('NVDA')
+ford = Ticker('F')
 
-TSLA = Ticker('TSLA')
+tickers = [apple,tesla,microsoft,nvdia,ford]
 
 
 
-data = TSLA.dailydata()
-#print(data)
+
+
